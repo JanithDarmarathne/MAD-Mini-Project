@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editHelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_edit_help"
+        android:layout_gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="520dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#F1673B"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editHelpVieww"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/edit_help"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/titleedit"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonNamerdit"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:ems="17"
+            android:inputType="textPersonName"
+            android:text="@string/conte"
+            android:textColor="#D3CDCD"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/ContentLineedit"
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/content"
+            android:textColor="#FFFFFF" />
+
+
+        <EditText
+            android:id="@+id/edithelpconten"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:text="@string/editcintent"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/update" />
+    </LinearLayout>
+
+</FrameLayout>

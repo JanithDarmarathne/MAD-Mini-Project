@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/dashtextfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/dashboard"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/ordertxxt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/ordertxt"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    //start order image
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/pending"
+        android:src="@drawable/ic_baseline_access_time_24">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/processiew"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/processed"
+        android:src="@drawable/ic_baseline_check_circle_24">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/cancelView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/cancelvew"
+        android:src="@drawable/ic_baseline_cancel_24">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/totalView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/totalview"
+        android:src="@drawable/ic_baseline_done_all_24">
+
+    </ImageView>
+    //end order image
+    //Start order txt
+
+    <TextView
+        android:id="@+id/pendText"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/pendtext"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //process txt
+
+    <TextView
+        android:id="@+id/procestext"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/processedtxt"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //cancel txt
+
+    <TextView
+        android:id="@+id/canceltxt"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/canceled"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //total txt
+
+    <TextView
+        android:id="@+id/totalText"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/total"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //end Order
+    //Start info
+
+    <TextView
+        android:id="@+id/infotxtt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+    //info Name
+
+    <TextView
+        android:id="@+id/catetxtt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/category"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/produttxt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/producttc"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Heplmenutxt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpnum"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    //number
+
+    <TextView
+        android:id="@+id/catNum"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/catnum"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/produNum"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/proNUm"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/helpNum"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpNum"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //dot
+
+    <TextView
+        android:id="@+id/catdot"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/catdot"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/produdot"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/produdot"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/helpdot"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpdot"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //end info
+    //start settings
+
+    <TextView
+        android:id="@+id/settingtxtx"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/settingtxtt"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/taxtxt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/tax"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/notifitxt"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/notification"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Admintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/administrator"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    //dott
+
+    <TextView
+        android:id="@+id/dot1"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/dot1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dot2"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/dot2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dott3"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/dot3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtedite1"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpNum"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/editTextNumber2"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpNum"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:id="@+id/editTextNumber3"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/helpNum"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</FrameLayout>

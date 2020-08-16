@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditCategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard/Edit Category"
+        android:layout_gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textSize="24sp"/>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="520dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#F1673B"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/AddCategoryview"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:text="Edit Category"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/category_name"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:autofillHints=""
+            android:ems="17"
+            android:text="######"
+            android:inputType="textPersonName"
+            android:textColor="#D3CDCD" />
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/category_image"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/insertcateImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ECDEDE"
+            android:contentDescription="@string/insertimage"
+            android:src="@drawable/ic_baseline_image_search_24" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="20dp"
+            android:text="UPDATE" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_settings"
+        android:layout_gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textSize="24sp"/>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="520dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:background="#F1673B"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/AddCategoryview"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/currency_and_tax"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/currency"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:entries="@array/namesss"/>
+        <TextView
+            android:layout_width="133dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/tax_0_100"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:entries="@array/nameess2"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/update" />
+
+
+    </LinearLayout>
+
+</FrameLayout>
