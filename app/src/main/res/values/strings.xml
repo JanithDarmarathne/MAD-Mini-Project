@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wing Shopping</string>
+    <string name="msg1">Cotton Shirt</string>
+    <string name="msg2">Ladies Watch</string>
+    <string name="msg3">Shades</string>
+    <string name="msg4">already have an  account?</string>
+    <string name="msg5">Login via social networks</string>
+    <string name="msg6">Made in Bangladesh</string>
+    <string name="msg7">size:</string>
+    <string name="msg8">color:</string>
+    <string name="msg9">mycart</string>
+    <string name="msg10">Denim</string>
+</resources>
