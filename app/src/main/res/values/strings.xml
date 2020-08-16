@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Seller</string>
+    <string name="e_mail">E-mail</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="wing_shopping">WING SHOPPING</string>
+    <string name="name">Name</string>
+    <string name="namelab">Name :</string>
+    <string name="address">Address :</string>
+    <string name="e_maillab">E-mail :</string>
+    <string name="addresslab">Address</string>
+    <string name="confirm_password">Confirm Password :</string>
+    <string name="confirm_passwordne">confirm password</string>
+    <string name="password">password</string>
+    <string name="namelabe">name</string>
+    <string name="addresslabe">address</string>
+    <string name="e_maillabe">e-mail</string>
+    <string name="passwordlabe">Password :</string>
+    <string name="login">Login</string>
+    <string name="passwordhint">Password</string>
+    <string name="e_mailhint">E-mail</string>
+    <string name="todo">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="account">Account</string>
+</resources>
