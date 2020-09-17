@@ -51,7 +51,6 @@
             android:layout_marginStart="10dp"
             android:autofillHints=""
             android:ems="17"
-            android:text="######"
             android:inputType="textPersonName"
             android:textColor="#D3CDCD" />
 

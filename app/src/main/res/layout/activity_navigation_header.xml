@@ -6,11 +6,10 @@
     android:layout_height="120dp"
     android:background="#E910D4ED">
 
-<com.makeramen.roundedimageview.RoundedImageView
+    <com.makeramen.roundedimageview.RoundedImageView
         android:id="@+id/Userlogo"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        android:onClick="showProfile"
         android:src="@drawable/ic_baseline_account_circle_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,9 +32,4 @@
         app:layout_constraintStart_toEndOf="@+id/Userlogo"
         app:layout_constraintTop_toTopOf="parent" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
