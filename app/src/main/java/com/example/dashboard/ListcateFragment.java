@@ -100,8 +100,8 @@ public class ListcateFragment extends Fragment {
                     t2v.setPadding(5,20,5,5);
                     Glide.with(getContext())
                             .load(list.get(i).FilePath.toString()).into(t2v);
-                    t2v.setMaxWidth(100);
-                    t2v.setMaxHeight(100);
+                    t2v.setMaxWidth(50);
+                    t2v.setMaxHeight(50);
                     tbrow.addView(t2v);
 
                     TextView t3v = new TextView(getContext());
@@ -115,7 +115,7 @@ public class ListcateFragment extends Fragment {
                     t4v.setText("Edit");
                     t4v.setTextColor(Color.BLACK);
                     t4v.setGravity(Gravity.CENTER);
-                    t4v.setPadding(50,20,0,5);
+                    t4v.setPadding(0,20,0,5);
                     tbrow.addView(t4v);
                     tbrow.setTag(list.get(i).pushKey);
 

@@ -94,7 +94,7 @@ public class listHelpFragment extends Fragment {
                     t3v.setText("Delete");
                     t3v.setTextColor(Color.BLACK);
                     t3v.setGravity(Gravity.CENTER);
-                    t3v.setPadding(50,20,0,5);
+                    t3v.setPadding(70,20,0,5);
                     tbrow.addView(t3v);
 
                     TextView t4v = new TextView(getContext());
