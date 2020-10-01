@@ -45,66 +45,40 @@
             android:hint="@string/searchs"
             android:inputType="textPersonName" />
 
-    <TableLayout
-        android:layout_width="330dp"
-        android:layout_height="match_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp">
-
-
-    <TableRow>
-
-        <TextView
-            android:id="@+id/HelpTitleView"
-            android:layout_width="match_parent"
+        <TableLayout
+            android:id="@+id/table3"
+            android:layout_width="330dp"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/title"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp">
 
-        <TextView
-            android:id="@+id/HelpActionview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="40dp"
-            android:gravity="start"
-            android:paddingStart="130dp"
-            android:text="@string/action"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </TableRow>
 
-    <TableRow>
+            <TableRow>
 
-    <TextView
-        android:id="@+id/helpnam"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:gravity="start"
-        android:text="@string/helpli"
-        android:paddingTop="7dp"
-        android:textColor="#FBEE76"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-        <TextView
-            android:id="@+id/Actino"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:gravity="start"
-            android:paddingStart="140dp"
-            android:paddingTop="7dp"
-            android:text="@string/edit_delete"
-            android:textColor="#2196F3"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </TableRow>
+                <TextView
+                    android:id="@+id/HelpTitleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-    </TableLayout>
+                <TextView
+                    android:id="@+id/HelpActionview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:gravity="start"
+                    android:paddingStart="130dp"
+                    android:text="@string/action"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
     </LinearLayout>
 
 </FrameLayout>

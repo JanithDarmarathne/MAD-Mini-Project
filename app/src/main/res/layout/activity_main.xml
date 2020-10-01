@@ -43,6 +43,15 @@
                 android:textColor="#F8F7F7"
                 android:textSize="24sp" />
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="65dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="27dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_log_out_02"
+                tools:ignore="VectorDrawableCompat" />
+
 
         </LinearLayout>
 

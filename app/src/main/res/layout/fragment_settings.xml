@@ -69,7 +69,7 @@
             android:entries="@array/nameess2"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginStart="200dp"

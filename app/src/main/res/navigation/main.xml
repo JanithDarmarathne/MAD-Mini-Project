@@ -46,4 +46,10 @@
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
 
+<!--    <fragment-->
+<!--        android:id="@+id/editcat"-->
+<!--        android:name="com.example.dashboard.EditCategoryFragment"-->
+<!--        android:label="fragment_edit_category"-->
+<!--        tools:layout="@layout/fragment_edit_category" />-->
+
 </navigation>

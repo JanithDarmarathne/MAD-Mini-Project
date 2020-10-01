@@ -46,6 +46,7 @@
             android:inputType="textPersonName" />
 
         <TableLayout
+            android:id="@+id/table"
             android:layout_width="330dp"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -83,43 +84,6 @@
                     android:gravity="center"
                     android:text="@string/action"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-            </TableRow>
-
-            <TableRow>
-
-                <TextView
-                    android:id="@+id/CateNm"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="20dp"
-                    android:gravity="start"
-                    android:text="@string/foods"
-                    android:paddingTop="7dp"
-                    android:textColor="#FBEE76"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="20dp"
-                    android:contentDescription="@string/cateimage"
-                    android:src="@drawable/ic_baseline_fastfood_24">
-
-                </ImageView>
-
-                <TextView
-                    android:id="@+id/Actin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="20dp"
-                    android:gravity="start"
-                    android:paddingStart="5dp"
-                    android:paddingTop="7dp"
-                    android:text="@string/edit_delete"
-                    android:textColor="#2196F3"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </TableRow>

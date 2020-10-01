@@ -74,7 +74,7 @@
             android:src="@drawable/ic_baseline_image_search_24" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button3"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginStart="200dp"
