@@ -31,9 +31,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="70dp"
+            android:layout_marginRight="20dp"
             android:text="@string/wing_shopping"
             android:textColor="#F8F7F7"
             android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:onClick="logout"
+            app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
+            tools:ignore="VectorDrawableCompat" />
 
     </LinearLayout>
 
@@ -53,13 +63,15 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:gravity="center"
         android:text="Seller Name"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintHorizontal_bias="0.785"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.017" />

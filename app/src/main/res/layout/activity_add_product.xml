@@ -34,7 +34,8 @@
             android:layout_marginStart="70dp"
             android:text="@string/wing_shopping"
             android:textColor="#F8F7F7"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:layout_marginLeft="70dp" />
 
 
     </LinearLayout>
@@ -86,7 +87,8 @@
                 android:text="Image"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp" />
 
             <TextView
                 android:id="@+id/CateActionvew"
@@ -97,45 +99,46 @@
                 android:text="Action"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="40dp" />
         </TableRow>
 
-        <TableRow>
+<!--        <TableRow>-->
 
-            <TextView
-                android:id="@+id/CateNm"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="20dp"
-                android:gravity="start"
-                android:paddingTop="7dp"
-                android:text="Ball"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/CateNm"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:gravity="start"-->
+<!--                android:paddingTop="7dp"-->
+<!--                android:text="Ball"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="40dp"
-                android:layout_marginTop="20dp"
-                android:contentDescription="selectcateImage"
-                android:src="@drawable/ic_baseline_sports_football_24">
+<!--            <ImageView-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:contentDescription="selectcateImage"-->
+<!--                android:src="@drawable/ic_baseline_sports_football_24">-->
 
-            </ImageView>
+<!--            </ImageView>-->
 
-            <TextView
-                android:id="@+id/Actin"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_marginTop="20dp"
-                android:gravity="start"
-                android:paddingStart="5dp"
-                android:paddingTop="7dp"
-                android:text="Edit/Delete"
-                android:textColor="#2196F3"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </TableRow>
+<!--            <TextView-->
+<!--                android:id="@+id/Actin"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:gravity="start"-->
+<!--                android:paddingStart="5dp"-->
+<!--                android:paddingTop="7dp"-->
+<!--                android:text="Edit/Delete"-->
+<!--                android:textColor="#2196F3"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </TableRow>-->
 
 
     </TableLayout>
@@ -144,7 +147,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
+        android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.833"

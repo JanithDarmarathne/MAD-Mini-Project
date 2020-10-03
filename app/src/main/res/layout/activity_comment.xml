@@ -54,53 +54,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143" />
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="332dp"
-        android:layout_height="333dp"
-        android:background="#EFEBDE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.066">
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="102dp"
-            android:layout_height="49dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:text="######"
-            android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Reply"
-            android:layout_marginStart="200dp"
-            android:layout_marginTop="70dp"/>
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="102dp"
-            android:layout_height="49dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="150dp"
-            android:text="######"
-            android:textSize="24sp" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Reply"
-            android:layout_marginStart="200dp"
-            android:layout_marginTop="200dp"/>
-    </FrameLayout>
-
     <View
         android:id="@+id/divider"
         android:layout_width="409dp"
@@ -111,16 +64,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.216" />
 
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="362dp"
+        android:layout_height="401dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TableLayout>
+
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
+        android:layout_marginBottom="56dp"
+        android:text="Add Comment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.874"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
