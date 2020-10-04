@@ -40,13 +40,8 @@
         android:name="com.example.dashboard.listHelpFragment"
         android:label="fragment_list_help"
         tools:layout="@layout/fragment_list_help" />
-    <activity
-        android:id="@+id/lgout"
-        android:name="com.example.dashboard.login"
-        android:label="activity_login"
-        tools:layout="@layout/activity_login" />
 
-<!--    <fragment-->
+    <!--    <fragment-->
 <!--        android:id="@+id/editcat"-->
 <!--        android:name="com.example.dashboard.EditCategoryFragment"-->
 <!--        android:label="fragment_edit_category"-->
