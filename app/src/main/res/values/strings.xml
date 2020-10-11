@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">WING</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="order_list">Order List</string>
+    <string name="category">Category</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="todo">TODO</string>
+    <string name="name">Name</string>
+    <string name="add_new">Add New</string>
+    <string name="category_list">Category List</string>
+    <string name="add_New">Add New</string>
+    <string name="help_list">Help List</string>
+    <string name="hello">Hello, ####</string>
+    <string name="userview">userView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="db">Dashboard</string>
+    <string name="order">Order</string>
+    <string name="setting">Settings</string>
+    <string name="wing_shopping">WING SHOPPING</string>
+    <string name="pending">pending</string>
+    <string name="oder">Oder</string>
+    <string name="processed">processed</string>
+    <string name="cancelvew">cancelVew</string>
+    <string name="totalview">totalView</string>
+    <string name="pendtext">Pending</string>
+    <string name="canceled">Canceled</string>
+    <string name="processedtxt">Processed</string>
+    <string name="total">Total</string>
+    <string name="info">INFO</string>
+    <string name="ordertxt">ORDER</string>
+    <string name="help_menu">Help Menu :</string>
+    <string name="product">Product :</string>
+    <string name="categorytxt">Category :</string>
+    <string name="categorynam">Category</string>
+    <string name="producttc">Product</string>
+    <string name="helpnum">Help Menu</string>
+    <string name="catnum">##</string>
+    <string name="proNUm">##</string>
+    <string name="helpNum">##</string>
+    <string name="catdot">:</string>
+    <string name="produdot">:</string>
+    <string name="helpdot">:</string>
+    <string name="settingtxtt">SETTING</string>
+    <string name="tax">Tax</string>
+    <string name="notification">Notification</string>
+    <string name="administrator">Administrator</string>
+    <string name="dot1">:</string>
+    <string name="dot2">:</string>
+    <string name="dot3">:</string>
+    <string name="manage_oder">Manage Oder</string>
+    <string name="dashboard_manage_order">DashBoard / Manage Order</string>
+    <string name="search">Search</string>
+    <string name="nameOrde">Name :</string>
+    <string name="order_id1">Order Id :</string>
+    <string name="product_id1">Product Id :</string>
+    <string name="order_date1">Order Date :</string>
+    <string name="status1">Status :</string>
+    <string name="order_id2">Order Id :</string>
+    <string name="product_id2">Product Id :</string>
+    <string name="order_date2">Order Date :</string>
+    <string name="status2">Status :</string>
+    <string name="category_image">Category Image*</string>
+    <string name="category_name">Category Name*</string>
+    <string name="categoryname">Category Name*</string>
+    <string name="add_new_category">Add New Category</string>
+    <string name="submit">SUBMIT</string>
+    <string name="insertimage">insertImage</string>
+    <string name="dashboard_manage_category">DashBoard / Manage Category</string>
+    <string name="manage_category">Manage Category</string>
+    <string name="category_nameaa">Category Name</string>
+    <string name="image">Image</string>
+    <string name="action">Action</string>
+    <string name="cateimage">CateImage</string>
+    <string name="foods">Foods</string>
+    <string name="helpli">#######</string>
+    <string name="title">Title</string>
+    <string name="searchhelp">Search...</string>
+    <string name="mange_help">Mange Help</string>
+    <string name="dashboard_manage_help">DashBoard / Manage Help</string>
+    <string name="edit_delete">Edit/Delete</string>
+    <string name="update">UPDATE</string>
+    <string name="editcintent">############################</string>
+    <string name="conte">######</string>
+    <string name="dashboard_edit_help">DashBoard / Edit Help</string>
+    <string name="edit_help">Edit Help</string>
+    <string name="content">Content*</string>
+    <string name="titleedit">Title*</string>
+    <string name="profile">Profile</string>
+    <string name="editdelete">Edit/Delete</string>
+    <string name="searchh">Search...</string>
+    <string name="titlel">Title*</string>
+    <string name="titlehint">title*</string>
+    <string name="contentedit">Content*</string>
+    <string name="add_help">Add Help</string>
+    <string name="dashboard_add_help">DashBoard / Add Help</string>
+    <string name="searchs">Search...</string>
+    <string name="searchl">Search...</string>
+    <string name="dashboard_add_category">DashBoard / Add Category</string>
+    <string name="login">Login</string>
+    <string name="usernamehint">Username</string>
+    <string name="username">UserName</string>
+    <string name="button">Button</string>
+    <string name="password">Password</string>
+    <string name="passwordhint">Password</string>
+    <string name="currency">Currency</string>
+    <string name="currency_and_tax">Currency and Tax</string>
+    <string name="dashboard_settings">Dashboard/Settings</string>
+    <string name="tax_0_100">Tax(0-100%)</string>
+
+    <string-array name="namesss">
+        <item>USD - US Doller</item>
+        <item>SLR - Sri Lankan Rupee</item>
+        <item>IR - Indian Rupee</item>
+    </string-array>
+
+    <string-array name="nameess2">
+        <item>01</item>
+        <item>03</item>
+        <item>05</item>
+        <item>07</item>
+    </string-array>
+
+
+
+    <string name="msg1">Cotton Shirt</string>
+    <string name="msg2">Ladies Watch</string>
+    <string name="msg3">Shades</string>
+    <string name="msg4">already have an  account?</string>
+    <string name="msg5">Login via social networks</string>
+    <string name="msg6">Made in Bangladesh</string>
+    <string name="msg7">size:</string>
+    <string name="msg8">color:</string>
+    <string name="msg9">mycart</string>
+    <string name="msg10">Denim</string>
+    ///////////////////////////////////
+    <string name="e_mail">E-mail</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="wing_shoppingg">WING SHOPPING</string>
+    <string name="namee">Name</string>
+    <string name="namelab">Name :</string>
+    <string name="address">Address :</string>
+    <string name="e_maillab">E-mail :</string>
+    <string name="addresslab">Address</string>
+    <string name="confirm_password">Confirm Password :</string>
+    <string name="confirm_passwordne">confirm password</string>
+    <string name="passwordd">password</string>
+    <string name="namelabe">name</string>
+    <string name="addresslabe">address</string>
+    <string name="e_maillabe">e-mail</string>
+    <string name="passwordlabe">Password :</string>
+    <string name="loginn">Login</string>
+    <string name="passwordhintt">Password</string>
+    <string name="e_mailhint">E-mail</string>
+    <string name="todoo">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="account">Account</string>
+</resources>

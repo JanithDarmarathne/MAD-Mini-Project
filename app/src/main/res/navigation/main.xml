@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/db">
+
+    <fragment
+        android:id="@+id/db"
+        android:name="com.example.dashboard.DashFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dash" />
+    <fragment
+        android:id="@+id/odList"
+        android:name="com.example.dashboard.OrderFragment"
+        android:label="Oder List"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.dashboard.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addcat"
+        android:name="com.example.dashboard.AddcateFragment"
+        android:label="fragment_addcate"
+        tools:layout="@layout/fragment_addcate" />
+    <fragment
+        android:id="@+id/listcat"
+        android:name="com.example.dashboard.ListcateFragment"
+        android:label="fragment_listcate"
+        tools:layout="@layout/fragment_listcate" />
+    <fragment
+        android:id="@+id/addHelp"
+        android:name="com.example.dashboard.addhelpFragment"
+        android:label="fragment_addhelp"
+        tools:layout="@layout/fragment_addhelp" />
+    <fragment
+        android:id="@+id/listHelp"
+        android:name="com.example.dashboard.listHelpFragment"
+        android:label="fragment_list_help"
+        tools:layout="@layout/fragment_list_help" />
+
+    <!--    <fragment-->
+<!--        android:id="@+id/editcat"-->
+<!--        android:name="com.example.dashboard.EditCategoryFragment"-->
+<!--        android:label="fragment_edit_category"-->
+<!--        tools:layout="@layout/fragment_edit_category" />-->
+
+</navigation>
