@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "160076120931",
+    "firebase_url": "https://madmini-45f52.firebaseio.com",
+    "project_id": "madmini-45f52",
+    "storage_bucket": "madmini-45f52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160076120931:android:6e13b60eaf9aea5a3e8956",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFh8auJIxJx9zgpQ4a2PJmkE9r_iyBjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160076120931:android:f46d61f56aa50f853e8956",
+        "android_client_info": {
+          "package_name": "com.example.eshoppingmanagementsytemuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFh8auJIxJx9zgpQ4a2PJmkE9r_iyBjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160076120931:android:dab578e1ca3427643e8956",
+        "android_client_info": {
+          "package_name": "com.example.seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWFh8auJIxJx9zgpQ4a2PJmkE9r_iyBjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160076120931-fbha93sa0ep3k8q8d6c87gatvd0sfqh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
