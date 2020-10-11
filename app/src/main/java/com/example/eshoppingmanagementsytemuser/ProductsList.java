@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -33,7 +35,7 @@ public class ProductsList extends AppCompatActivity implements ProductAdapter.on
     ValueEventListener valueEventListener;
     private LinearLayoutManager linearLayoutManager;
     ProgressDialog progressDialog;
-    private Button btnCart;
+    private Button btnCart,userlgout;
     public String userId;
 
     String key;
@@ -43,6 +45,7 @@ public class ProductsList extends AppCompatActivity implements ProductAdapter.on
         setContentView(R.layout.productslistt);
         recyclerView = findViewById(R.id.recyclerView);
 
+        userlgout = findViewById(R.id.userLgout);
         linearLayoutManager = new LinearLayoutManager(getApplicationContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(linearLayoutManager);
         progressDialog = new ProgressDialog(this);
@@ -64,12 +67,47 @@ public class ProductsList extends AppCompatActivity implements ProductAdapter.on
 
         mAuth = FirebaseAuth.getInstance();
 
+        userlgout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                open();
+            }
+        });
         mDatabase = FirebaseDatabase.getInstance().getReference("product");
         list = new ArrayList<>();
         progressDialog.show();
         InitListner();
         mDatabase.addValueEventListener(valueEventListener);
 
+    }
+
+    private void open() {
+        final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        alertDialogBuilder.setTitle("Logout");
+        alertDialogBuilder.setMessage("Are you sure?");
+        alertDialogBuilder.setPositiveButton("yes",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        //   deleteProduct(id);
+                        mAuth.getInstance()
+                                .signOut();
+                        startActivity(new Intent(ProductsList.this, Login.class));
+                        finish();
+
+                    }
+                });
+
+        alertDialogBuilder.setNegativeButton("No",new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                //  alertDialogBuilder.
+            }
+        });
+
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
     }
 
 
