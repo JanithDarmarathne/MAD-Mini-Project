@@ -100,15 +100,15 @@ public class ListcateFragment extends Fragment {
                     t2v.setPadding(5,20,5,5);
                     Glide.with(getContext())
                             .load(list.get(i).FilePath.toString()).into(t2v);
-                    t2v.setMaxWidth(50);
-                    t2v.setMaxHeight(50);
+                    t2v.setMaxWidth(10);
+                    t2v.setMaxHeight(10);
                     tbrow.addView(t2v);
 
                     TextView t3v = new TextView(getContext());
                     t3v.setText("Delete");
                     t3v.setTextColor(Color.BLACK);
                     t3v.setGravity(Gravity.CENTER);
-                    t3v.setPadding(50,20,0,5);
+                    t3v.setPadding(40,20,0,5);
                     tbrow.addView(t3v);
 
                     TextView t4v = new TextView(getContext());

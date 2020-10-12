@@ -70,6 +70,23 @@ public class AddingProducts extends AppCompatActivity {
         btnBuy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                key = myRef.getKey();
+                ProductUser product = new ProductUser(productName,productPrice,productMade,key,proudctImageUrl,0);
+                myRef.setValue(product).addOnCompleteListener(new OnCompleteListener<Void>() {
+
+
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+
+
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+
+                    }
+                });
+                openPayment();
 
             }
         });
@@ -99,6 +116,11 @@ public class AddingProducts extends AppCompatActivity {
         });
 
 
+    }
+
+    private void openPayment() {
+        Intent intent = new Intent(this,MainActivityPayment.class);
+        startActivity(intent);
     }
 
     @Override

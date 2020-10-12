@@ -157,7 +157,7 @@ public class ProductsList extends AppCompatActivity implements ProductAdapter.on
         i.putExtra("pushKey",model.pushKey);
         startActivity(i);
     }
-
+/*
     @Override
     protected void onStart() {
         super.onStart();
@@ -171,6 +171,8 @@ public class ProductsList extends AppCompatActivity implements ProductAdapter.on
             finish();
         }
     }
+
+ */
 
 
 }
